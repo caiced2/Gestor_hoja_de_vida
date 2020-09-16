@@ -1,0 +1,99 @@
+CRITICAL - 2020-09-09 10:46:17 --> Call to undefined function form_open()
+#0 /var/www/html/framework-4.0.4/system/View/View.php(246): include()
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(29): view('login')
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->formulario()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:12:19 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(43): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:12:31 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(43): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:13:35 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(43): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:13:57 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(43): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:14:22 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(43): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:15:21 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(36): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:15:29 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(36): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:15:33 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(36): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:16:16 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(36): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-09 17:16:29 --> Invalid file: formulario.php
+#0 /var/www/html/framework-4.0.4/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+#1 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('formulario', Array, true)
+#2 /var/www/html/framework-4.0.4/app/Controllers/Home.php(36): view('formulario', Array)
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar()
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

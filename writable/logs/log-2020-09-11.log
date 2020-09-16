@@ -1,0 +1,14 @@
+CRITICAL - 2020-09-11 10:00:22 --> Argument 1 passed to CodeIgniter\HTTP\URI::getSegment() must be of the type integer, string given, called in /var/www/html/framework-4.0.4/app/Controllers/Home.php on line 42
+#0 /var/www/html/framework-4.0.4/app/Controllers/Home.php(42): CodeIgniter\HTTP\URI->getSegment('id')
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->editar('1')
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-11 10:01:22 --> Argument 1 passed to CodeIgniter\HTTP\URI::getSegment() must be of the type integer, string given, called in /var/www/html/framework-4.0.4/app/Controllers/Home.php on line 54
+#0 /var/www/html/framework-4.0.4/app/Controllers/Home.php(54): CodeIgniter\HTTP\URI->getSegment('id')
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->borrar('26')
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

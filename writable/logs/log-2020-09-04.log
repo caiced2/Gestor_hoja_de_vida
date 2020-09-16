@@ -1,0 +1,10 @@
+CRITICAL - 2020-09-04 11:08:17 --> Invalid argument supplied for foreach()
+#0 /var/www/html/framework-4.0.4/app/Views/hola.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/f...', 21, Array)
+#1 /var/www/html/framework-4.0.4/system/View/View.php(246): include('/var/www/html/f...')
+#2 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('hola', Array, true)
+#3 /var/www/html/framework-4.0.4/app/Controllers/Home.php(22): view('hola', Array)
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

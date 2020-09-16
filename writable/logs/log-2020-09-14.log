@@ -1,0 +1,67 @@
+CRITICAL - 2020-09-14 10:15:46 --> Undefined index: id
+#0 /var/www/html/framework-4.0.4/app/Views/hola.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/f...', 59, Array)
+#1 /var/www/html/framework-4.0.4/system/View/View.php(246): include('/var/www/html/f...')
+#2 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('hola', Array, true)
+#3 /var/www/html/framework-4.0.4/app/Controllers/Micontrolador.php(125): view('hola', Array)
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Micontrolador->index()
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Micontrolador))
+#6 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-14 10:27:15 --> Undefined variable: paginador
+#0 /var/www/html/framework-4.0.4/app/Views/hola.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/f...', 65, Array)
+#1 /var/www/html/framework-4.0.4/system/View/View.php(246): include('/var/www/html/f...')
+#2 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('hola', Array, true)
+#3 /var/www/html/framework-4.0.4/app/Controllers/Micontrolador.php(68): view('hola', Array)
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Micontrolador->index()
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Micontrolador))
+#6 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-14 10:29:10 --> Undefined variable: paginador
+#0 /var/www/html/framework-4.0.4/app/Views/hola.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/f...', 65, Array)
+#1 /var/www/html/framework-4.0.4/system/View/View.php(246): include('/var/www/html/f...')
+#2 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('hola', Array, true)
+#3 /var/www/html/framework-4.0.4/app/Controllers/Micontrolador.php(68): view('hola', Array)
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Micontrolador->index()
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Micontrolador))
+#6 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-14 10:30:35 --> Undefined variable: paginador
+#0 /var/www/html/framework-4.0.4/app/Views/hola.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/f...', 65, Array)
+#1 /var/www/html/framework-4.0.4/system/View/View.php(246): include('/var/www/html/f...')
+#2 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('hola', Array, true)
+#3 /var/www/html/framework-4.0.4/app/Controllers/Micontrolador.php(68): view('hola', Array)
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Micontrolador->index()
+#5 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Micontrolador))
+#6 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-14 16:27:43 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/framework-4.0.4/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('home/imagenMani...')
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('home/imagenMani...')
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-14 17:19:42 --> Too few arguments to function App\Controllers\Home::iniciar(), 0 passed in /var/www/html/framework-4.0.4/system/CodeIgniter.php on line 918 and exactly 2 expected
+#0 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->iniciar()
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-14 17:59:45 --> Undefined property: App\Controllers\Micontrolador::$load
+#0 /var/www/html/framework-4.0.4/app/Controllers/Micontrolador.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/f...', 13, Array)
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(890): App\Controllers\Micontrolador->__construct()
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-14 18:00:08 --> Undefined property: App\Controllers\Micontrolador::$form_validation
+#0 /var/www/html/framework-4.0.4/app/Controllers/Micontrolador.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/f...', 17, Array)
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Micontrolador->inicio()
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Micontrolador))
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

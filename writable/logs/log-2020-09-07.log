@@ -1,0 +1,22 @@
+CRITICAL - 2020-09-07 09:40:26 --> Call to undefined method App\Models\PruebaModel::erros
+#0 /var/www/html/framework-4.0.4/app/Controllers/Home.php(60): CodeIgniter\Model->__call('erros', Array)
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 09:40:31 --> Call to undefined method App\Models\PruebaModel::erros
+#0 /var/www/html/framework-4.0.4/app/Controllers/Home.php(60): CodeIgniter\Model->__call('erros', Array)
+#1 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 17:11:52 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 /var/www/html/framework-4.0.4/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#1 /var/www/html/framework-4.0.4/app/Controllers/Home.php(13): view('login')
+#2 /var/www/html/framework-4.0.4/system/CodeIgniter.php(918): App\Controllers\Home->formulario()
+#3 /var/www/html/framework-4.0.4/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /var/www/html/framework-4.0.4/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/framework-4.0.4/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
